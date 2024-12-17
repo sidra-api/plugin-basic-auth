@@ -1,7 +1,5 @@
-module github.com/sidra-gateway/plugin-basic-auth
+module github.com/sidra-api/plugin-basic-auth
 
-go 1.23.1
+go 1.23.2
 
-toolchain go1.23.2
-
-require github.com/sidra-gateway/go-pdk v1.0.0
+require github.com/sidra-gateway/go-pdk v1.0.4
