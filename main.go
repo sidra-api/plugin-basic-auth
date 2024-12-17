@@ -2,7 +2,7 @@ package main
 
 import (
 	"encoding/base64"
-	"fmt"
+	"log"
 	"os"
 
 	"github.com/sidra-gateway/go-pdk/server"
@@ -15,8 +15,7 @@ func main() {
 
 	// --- STEP 2: Validasi jika Env Var kosong ---
 	if username == "" || password == "" {
-		fmt.Println("Error: Environment variables BASIC_AUTH_USERNAME and BASIC_AUTH_PASSWORD must be set.")
-		os.Exit(1) // Keluar dari aplikasi jika Env Var tidak ditemukan
+		log.Fatal("Error: Environment variables BASIC_AUTH_USERNAME and BASIC_AUTH_PASSWORD must be set.")
 	}
 
 	// --- STEP 3: Buat server plugin ---
