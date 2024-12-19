@@ -21,7 +21,7 @@ The Basic Auth Plugin is a simple authentication plugin that validates credentia
 ## Prerequisites
 
 - Golang must be installed.
-- Sidra Api and Sidra Plugin Hub are properly configured.
+- Sidra Api is properly configured.
 - The following environment variables must be set:
   - `BASIC_AUTH_USERNAME`
   - `BASIC_AUTH_PASSWORD`
