@@ -40,8 +40,8 @@ The Basic Auth Plugin is a simple authentication plugin that validates credentia
    ```
 3. Build and Run the Plugin:
    ```sh
-   go build -o basic-auth-plugin
-   ./basic-auth-plugin
+   go build -o basic-auth
+   ./basic-auth
    ```
 
 ## Testing the Plugin
